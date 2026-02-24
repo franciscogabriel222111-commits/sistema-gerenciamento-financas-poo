@@ -1,4 +1,4 @@
-# 💰 Sistema de Gerenciamento Financeiro
+#  Sistema de Gerenciamento Financeiro
 
 Um sistema desktop moderno para controle financeiro pessoal e empresarial, focado em registrar entradas (receitas) e saídas (despesas) de forma intuitiva e visual. 
 
@@ -6,7 +6,7 @@ Este projeto foi desenvolvido com foco na aplicação de conceitos de Programaç
 
 ---
 
-## 🚀 Funcionalidades Atuais
+##  Funcionalidades Atuais
 
 * **Autenticação:** Tela de login inicial para controle de acesso.
 * **Dashboard Visual:** Gráfico de pizza (PieChart) interativo e dinâmico que atualiza em tempo real mostrando a proporção entre receitas e despesas.
@@ -16,7 +16,7 @@ Este projeto foi desenvolvido com foco na aplicação de conceitos de Programaç
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Linguagem:** Java (JDK 17+)
 * **Interface Gráfica:** JavaFX 13+
@@ -27,7 +27,7 @@ Este projeto foi desenvolvido com foco na aplicação de conceitos de Programaç
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 A organização do código fonte segue as boas práticas de separação de responsabilidades:
 

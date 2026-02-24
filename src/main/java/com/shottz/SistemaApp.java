@@ -29,7 +29,7 @@ public class SistemaApp extends Application {
     private PieChart pieChart = new PieChart();
     private Stage primaryStage;
     
-    // Instância do Banco de Dados
+    
     private TransacaoDAO dao = new TransacaoDAO();
 
     @Override
@@ -88,7 +88,7 @@ public class SistemaApp extends Application {
 
         table.getColumns().addAll(colDesc, colValor, colTipo);
         
-        // Puxa os dados do banco ao iniciar a tela
+        
         try {
             List<Transacao> dadosDoBanco = dao.listarTodas();
             transacoes.setAll(dadosDoBanco);
@@ -119,10 +119,10 @@ public class SistemaApp extends Application {
                                  ? new Receita(desc, valor, LocalDate.now()) 
                                  : new Despesa(desc, valor, LocalDate.now());
 
-                // Salva no banco primeiro
+                
                 dao.salvar(nova);
 
-                // Atualiza a tabela na tela
+                
                 transacoes.add(nova);
                 atualizarGrafico();
                 
